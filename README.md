@@ -1,14 +1,12 @@
 # clojure-noob
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to learn clojure language.
 
-## Usage
-
-FIXME
+![GitHub last commit](https://img.shields.io/github/last-commit/Denel91/clojure-noob) ![GitHub issues](https://img.shields.io/github/issues-raw/Denel91/clojure-noob) ![GitHub forks](https://img.shields.io/github/forks/Denel91/clojure-noob) ![GitHub stars](https://img.shields.io/github/stars/Denel91/clojure-noob) ![GitHub license](https://img.shields.io/github/license/Denel91/clojure-noob) ![GitHub top language](https://img.shields.io/github/languages/top/Denel91/clojure-noob) ![GitHub version](https://img.shields.io/badge/Clojure-v1.10.1-blue)
 
 ## License
 
-Copyright © 2020 FIXME
+Copyright © 2020 Daniele Di Salvo
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
