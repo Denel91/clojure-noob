@@ -1,10 +1,13 @@
-(ns clojure-noob.core
-  (:gen-class))
+(ns clojure-noob.core)
 
 (defn -main
   "I don't do a whole lot...yet."
   [& args]
   (println "I'm a little teapot!"))
+
+(+ 1 2 3)
+
+(str "It was the panda " "in the library " "with a dust buster")
 
 (if true
   "By Zeus's hammer!"
@@ -55,3 +58,26 @@
 (= 2.0 3.0)
 
 (= 2.5 2.5)
+
+(println "Hello world")
+
+(or false nil :large_I_mean_venti :why_cant_I_just_say_large)
+
+(or (= 0 1) (= "yes" "yes"))
+
+(and :free_wifi :hot_coffee)
+
+(and :feelin_super_cool nil false)
+
+(def failed-protagonist-names
+  ["Larry Potter" "Doreen the Explorer" "The Incredible Bulk"])
+
+(defn error-message
+  [severity]
+  (str "OH GOD! IT'S A DISASTER! WE'RE "
+       (if (= severity :mild)
+         "MILDLY INCONVENIENCED!"
+         "DOOOOOOOMED!")))
+
+(error-message :mild)
+
