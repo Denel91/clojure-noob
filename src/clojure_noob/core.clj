@@ -80,4 +80,3 @@
          "DOOOOOOOMED!")))
 
 (error-message :mild)
-
