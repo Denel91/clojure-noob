@@ -103,6 +103,35 @@
 ; (+ 200 20) ; evaluated (/ 100 5)
 ; 220 ; final evaluation
 
+(defn too-enthusiastic
+  "Return a cheer that might be a bit too enthusiastic"
+  [name]
+  (str "OH. MY. GOD! " name " YOU ARE MOST DEFINITELY LIKE THE BEST"))
+
+(too-enthusiastic "Zelda")
+
+(defn do-thin
+  "Example function"
+  [first-arg second-arg third-arg] (str "Three arguments function: " first-arg " " second-arg " " third-arg))
+
+(defn do-thing
+  "Example function"
+  [first-arg second-arg] (str "Two arguments function: " first-arg " " second-arg " "))
+
+(defn do-things
+  "Example function"
+  [first-arg] (str "One argument function: " first-arg))
+
+(defn multi-arity
+  ;; 3-arity arguments and body
+  ([first-arg second-arg third-arg] (do-thin first-arg second-arg third-arg))
+  ;; 2-arity arguments and body
+  ([first-arg second-arg] (do-thing first-arg second-arg))
+  ;; 1-arity arguments and body
+  ([first-arg] (do-things first-arg)))
+
+(multi-arity "Waw" "three arguments" "success!")
+
 
 
 
